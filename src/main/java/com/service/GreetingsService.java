@@ -1,7 +1,7 @@
 package com.service;
 
-import com.mit.Greetings;
-import com.mit.GreetingsStreams;
+import com.model.Greetings;
+import com.listnerservices.GreetingsStreams;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.MessageHeaders;

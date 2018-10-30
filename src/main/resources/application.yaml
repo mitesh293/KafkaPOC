@@ -11,3 +11,8 @@ spring:
         greetings-out:
           destination: greetings
           contentType: application/json
+  data:
+      cassandra:
+        keyspace-name: javasampleapproach
+        contact-points: 127.0.0.1
+        port : 9042

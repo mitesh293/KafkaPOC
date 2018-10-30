@@ -1,9 +1,6 @@
-package com.mit;
+package com.model;
 
 import lombok.*;
-
-import javax.validation.constraints.AssertFalse;
-import java.beans.ConstructorProperties;
 
 
 @Getter @Setter @ToString @Builder
@@ -13,5 +10,7 @@ import java.beans.ConstructorProperties;
 public class Greetings {
     private long timestamp;
     private String message;
-
+    private int age;
+    private String firstName;
+    private String lastName;
 }
